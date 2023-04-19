@@ -8,7 +8,8 @@ import spring.practice.service.MemberService;
 
 @Configuration
 public class SpringConfig {
-    /*
+/*
+
     @Bean
     public MemberService memberService(){
         return new MemberService(memberRepository());
@@ -19,4 +20,8 @@ public class SpringConfig {
         return new MemoryMemberRepository();
     }
 */
+
 }
+
+
+
