@@ -2,6 +2,7 @@ package spring.practice.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import spring.practice.domain.Member;
 import spring.practice.repository.MemberRepository;
 import spring.practice.repository.MemoryMemberRepository;
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
+@Transactional
 public class MemberService {
     // cmd + shift + t 누르면 테스트 케이스 작성됨
     private final MemberRepository memberRepository;
