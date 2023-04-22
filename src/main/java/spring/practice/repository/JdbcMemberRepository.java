@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Repository
 public class JdbcMemberRepository implements MemberRepository {
 
     private final DataSource dataSource;
